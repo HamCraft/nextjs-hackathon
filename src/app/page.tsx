@@ -9,14 +9,14 @@ export default function Home() {
       <Navbar1/>
 
       {/* first layout */}
-      <div className="pt-20 bg-black text-white relative overflow-hidden">
+      <div className="pt-20 bg-black text-white relative overflow-hidden ">
       <div className="container mx-auto px-4 h-full">
       
         <div className="grid md:grid-cols-2 gap-8 items-center h-full ">
         
           {/* Left Content */}
           
-          <div className="space-y-6 mx-auto">
+          <div className="space-y-6 mx-auto ">
             <p className="text-orange-500 font-script text-2xl">Its Quick & Amusing!</p>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               <span className="text-orange-500">Th</span>e Art of speed
@@ -105,18 +105,46 @@ export default function Home() {
 {/* 
 food-catogories */}
 
-     <div className='flex justify-center  mt-8 ml-9'>
+     <div className='flex justify-center  mt-8 ml-9 scale-150'>
   <Image
-    src="/home-pic-3.png"
+    src="/home-pic-3.1.png"
     alt='Food Categories'
     height={1000}
     width={1000}
   />
+  
 </div>
+
+<div className="mt-5 lg:flex lg:justify-center p-8 lg:space-x-3 space-y-8">
+<Image
+    src="/home-pic-3.2.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-3.3.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-3.4.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-3.5.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+  </div>
 
 {/* why choose us */}
 
-<div className="pt-20 bg-black text-white relative overflow-hidden">
+<div className="pt-20 bg-black text-white relative overflow-hidden ">
       <div className="container mx-auto px-2 h-full">
         <div className="grid md:grid-cols-2 gap-8 items-center h-full py-12">
         <div className="relative">
@@ -132,7 +160,7 @@ food-catogories */}
             </div>
           </div>
          
-          <div className="space-y-6 mx-auto">
+          <div className="space-y-6 mx-auto lg:text-left sm:text-center">
             <p className="text-orange-500 font-script text-2xl">Why Choose us</p>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
               <span className="text-orange-500">Ex</span>tra ordinary taste and Experienced
@@ -169,24 +197,73 @@ food-catogories */}
 
 
 
-<div className='flex justify-center mt-8 mb-4 '>
+<div className='mt-12 ml-12 hidden lg:block  '>
   <Image
-    src="/home-pic-6.png"
+    src="/home-pic-6.1.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+  </div>
+
+  <div className="mt-5 lg:flex lg:justify-center p-8 lg:space-x-3 space-y-8">
+<Image
+    src="/home-pic-6.2.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-6.3.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-6.4.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   
+  </div>
+
+<div className='flex justify-center mt-8 scale-150 '>
+  <Image
+    src="/home-pic-7.1.png"
     alt='Food Categories'
     height={1000}
     width={1000}
   />
 </div>
 
-
-<div className='flex justify-center mt-8 '>
-  <Image
-    src="/home-pic-7.png"
+<div className="mt-5 lg:flex lg:justify-center p-8 lg:space-x-3 space-y-8">
+<Image
+    src="/home-pic-7.2.png"
     alt='Food Categories'
     height={1000}
     width={1000}
   />
-</div>
+   <Image
+    src="/home-pic-7.3.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-7.4.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-7.5.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   
+  </div>
 
 <div className='flex justify-center mt-8 '>
   <Image
@@ -210,13 +287,36 @@ food-catogories */}
 
 <div className='flex justify-center mt-8 '>
   <Image
-    src="/home-pic-10.png"
+    src="/home-pic-10.1.png"
     alt='Food Categories'
     height={1000}
     width={1000}
   />
 </div>
 
+
+<div className="mt-5 lg:flex lg:justify-center p-8 lg:space-x-3 space-y-8">
+<Image
+    src="/home-pic-10.2.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-10.3.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+   <Image
+    src="/home-pic-10.4.png"
+    alt='Food Categories'
+    height={1000}
+    width={1000}
+  />
+
+   
+  </div>
 
 
 
