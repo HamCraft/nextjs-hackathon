@@ -351,13 +351,24 @@ export default function Menu() {
       ))}
     </div>
 
-    <div>
+      <div className='text-center text-3xl'>
+        <p>Partners & Clients</p>
+        <h1 className='font-bold'>We work with the best people</h1>
+      </div>
+    <div className=' mb-14 lg:flex lg:justify-center p-8 lg:space-x-3 space-y-8'>
         <Image
-        src="/menu-5.png"
+        src="/menu-5.1.png"
         alt='menu-5'
         height={1000}
         width={1000}
-        className=' mx-auto mb-14'
+        className=''
+        />
+          <Image
+        src="/menu-5.2.png"
+        alt='menu-5'
+        height={1000}
+        width={1000}
+        className=''
         />
     </div>
 

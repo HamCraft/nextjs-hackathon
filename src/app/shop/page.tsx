@@ -86,15 +86,33 @@ export default function Shop() {
 </h1>
 <Link
 href="/shop/shop-details">
-<div className='flex justify-center mt-7 mb-7'>
+<div className='lg:flex justify-center mt-7 mb-7 space-x-3'>
     <Image
-    src="/Shop.png"
+    src="/Shop1.png"
+    alt='shop'
+    height={500}
+    width={500}
+    className='w-full p-6'/>
+    <Image
+    src="/Shop2.png"
     alt='shop'
     height={500}
     width={500}
     className=''/>
+  
 </div>
+
+
 </Link>
+
+<div className='flex justify-center mb-5'>
+<Image
+    src="/Shop3.png"
+    alt='shop'
+    height={700}
+    width={700}
+    className=''/>
+</div>
 
     </div>
   )

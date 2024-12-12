@@ -83,16 +83,26 @@ export default function page() {
     </header>
     {/* navbar end */}
 
-    <div className='flex justify-center mt-7 mb-7'>
-        <div className='flex justify-center mt-7 mb-7'>
+    <div className=' space-x-3 justify-center mt-7 mb-7 p-6 '>
             <Image
-            src="/Chef.png"
+            src="/chef-1.png"
             alt='shop'
-            height={1320}
-            width={1386}
-            className=''/>
+            height={400}
+            width={400}
+            className='lg:w-full'/>
+            <Image
+            src="/chef-2.png"
+            alt='shop'
+            height={400}
+            width={400}
+            className='lg:w-full'/>
+              <Image
+            src="/chef-3.png"
+            alt='shop'
+            height={400}
+            width={400}
+            className='w-full'/>
         </div>
-    </div>
     </div>
   )
 }

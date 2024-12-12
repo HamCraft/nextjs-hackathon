@@ -83,33 +83,76 @@ export default function page() {
     </header>
     {/* navbar end */}
 
-    <div className='flex justify-center mt-7 mb-7'>
+    <div className='lg:flex justify-center mt-7 mb-7 p-6'>
             <Image
-            src="/about-1.png"
+            src="/about-1.1.png"
             alt='shop'
-            height={1320}
-            width={734}
+            height={132}
+            width={722}
+            className=''/>
+             <Image
+            src="/about-1.2.png"
+            alt='shop'
+            height={132}
+            width={732}
             className=''/>
         </div>
-        <div className='flex justify-center mt-7 mb-7'>
+        <div className='lg:flex justify-center mt-7 mb-7 ml-5 p-6'>
             <Image
-            src="/about-2.png"
+            src="/about-2.1.png"
             alt='shop'
             height={1320}
             width={734}
-            className=''/>
+            className=""/>
+            
+        </div>
+
+        <div className='lg:flex justify-center'>
+        <Image
+            src="/about-2.2.png"
+            alt='shop'
+            height={1320}
+            width={734}
+            className=""/>
+            <Image
+            src="/about-2.3.png"
+            alt='shop'
+            height={1320}
+            width={734}
+            className=""/>
+            <Image
+            src="/about-2.4.png"
+            alt='shop'
+            height={1320}
+            width={734}
+            className=""/>
         </div>
         <Link href="/about/chef">
-        <div className='flex justify-center mt-7 mb-7 '>
+        <div className='lg:flex justify-center mt-7  '>
             <Image
-            src="/about-3.png"
+            src="/about-3.1.png"
             alt='shop'
             height={1320}
             width={864}
             className='w-full'/>
         </div>
+        
+        <div className='lg:flex lg:justify-evenly sm:mt-7 mb-7 '>
+            <Image
+            src="/about-3.2.png"
+            alt='shop'
+            height={1320}
+            width={864}
+            className=''/>
+            <Image
+            src="/about-3.2.png"
+            alt='shop'
+            height={1320}
+            width={864}
+            className=''/>
+        </div>
         </Link>
-        <div className='flex justify-center mt-7 mb-7'>
+        <div className='flex justify-center mt-7 mb-7 p-6'>
             <Image
             src="/about-4.png"
             alt='shop'
@@ -117,14 +160,39 @@ export default function page() {
             width={770}
             className=''/>
         </div>
-        <div className='flex justify-center mt-7 mb-7'>
+        
+
+
+        <div className='lg:flex justify-center mt-7  '>
             <Image
-            src="/about-5.png"
+            src="/about-5.1.png"
             alt='shop'
             height={1320}
-            width={941}
+            width={864}
+            className='w-full'/>
+        </div>
+
+        <div className='lg:flex justify-center sm:mt-7 mb-7 p-6 '>
+            <Image
+            src="/about-5.2.png"
+            alt='shop'
+            height={400}
+            width={400}
+            className=''/>
+            <Image
+            src="/about-5.3.png"
+            alt='shop'
+            height={400}
+            width={400}
             className=''/>
         </div>
+
+      <div className='flex justify-center mb-10 mt-10'>
+        <button className='border border-orange-600   text-5xl rounded-md p-7'>
+          View More
+        </button>
+      </div>
+        
 
     </div>
   )

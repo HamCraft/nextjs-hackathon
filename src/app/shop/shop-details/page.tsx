@@ -84,16 +84,22 @@ export default function page() {
     </header>
     {/* navbar end */}
 
-    <div className='flex justify-center mt-7 mb-7'>
+    <div className='lg:flex justify-center mt-7 mb-7 p-3'>
     <Image
-    src="/details-1.png"
+    src="/details-1.1.png"
     alt='shop'
-    height={718}
-    width={1320}
+    height={500}
+    width={500}
+    className=''/>
+    <Image
+    src="/details-1.2.png"
+    alt='shop'
+    height={500}
+    width={500}
     className=''/>
 </div>
 
-<div className='flex justify-center mt-7 mb-7'>
+<div className='flex justify-center mt-7 mb-7 p-2 pr-12'>
     <Image
     src="/details-2.png"
     alt='shop'
@@ -102,16 +108,41 @@ export default function page() {
     className=''/>
 </div>
 
-<div className='flex justify-center mt-7 mb-7'>
+<div className='flex justify-center mt-7 p-2 '>
     <Image
-    src="/details-3.png"
+    src="/details-31.png"
     alt='shop'
     height={401}
     width={1320}
     className=''/>
 </div>
 
-
+<div className='lg:flex justify-center mt-7 mb-7 p-14 mx-auto'>
+    <Image
+    src="/details-32.png"
+    alt='shop'
+    height={401}
+    width={500}
+    className=''/>
+     <Image
+    src="/details-33.png"
+    alt='shop'
+    height={401}
+    width={500}
+    className=''/>
+     <Image
+    src="/details-34.png"
+    alt='shop'
+    height={401}
+    width={500}
+    className=''/>
+    <Image
+    src="/details-35.png"
+    alt='shop'
+    height={401}
+    width={500}
+    className=''/>
+</div>
 
 
 

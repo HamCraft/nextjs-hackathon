@@ -81,7 +81,7 @@ export default function page() {
     </header>
     {/* navbar end */}
 
-    <div className='flex justify-center mt-10 mb-10'>
+    <div className='flex justify-center mt-10 mb-10 p-12'>
             <Image
             src="/FAQ.png"
             alt='shop'

@@ -83,7 +83,7 @@ export default function cart() {
     {/* navbar end */}
 
 
-    <div className='flex justify-center mt-7 mb-7'>
+    <div className='lg:flex justify-center mt-7 mb-7 p-4'>
     <Image
     src="/cart-1.png"
     alt='shop'
