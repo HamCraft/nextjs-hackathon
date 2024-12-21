@@ -66,7 +66,7 @@ export default function cart() {
       </nav>
 
       {/* Hero Section */}
-      <div className="relative h-[300px] w-full bg-cover bg-center" style={{ backgroundImage: `url('/home-pic-1.png')` }}>
+      <div className="relative h-[300px] w-full bg-cover bg-center" style={{ backgroundImage: `url('/hero-section.png')` }}>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center">
           <h1 className="mb-4 text-5xl font-bold text-white">Shopping Cart</h1>
