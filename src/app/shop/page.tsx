@@ -2,6 +2,7 @@ import { Search, ShoppingBag, User } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import FoodList from '../components/FoodList'
 
 export default function Shop() {
   return (
@@ -84,26 +85,15 @@ export default function Shop() {
 <h1 className='text-center p-6 font-bold text-4xl'>
     Click Below To View Shop Details!
 </h1>
-<Link
-href="/shop/shop-details">
-<div className='lg:flex justify-center mt-7 mb-7 space-x-3'>
-    <Image
-    src="/Shop1.png"
-    alt='shop'
-    height={500}
-    width={500}
-    className='w-full p-6'/>
-    <Image
-    src="/Shop2.png"
-    alt='shop'
-    height={500}
-    width={500}
-    className=''/>
+
+<div className=' mt-7 mb-7 '>
+    <FoodList/>
+   
   
 </div>
 
 
-</Link>
+
 
 <div className='flex justify-center mb-5'>
 <Image

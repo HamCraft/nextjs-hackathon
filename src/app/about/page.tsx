@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import React from 'react'
+import ChefList from '../components/ChefList'
 
 export default function page() {
   return (
@@ -107,7 +108,7 @@ export default function page() {
             
         </div>
 
-        <div className='lg:flex justify-center'>
+        <div className='lg:flex justify-center mb-11'>
         <Image
             src="/about-2.2.png"
             alt='shop'
@@ -127,38 +128,11 @@ export default function page() {
             width={734}
             className=""/>
         </div>
+        <div className='mt-12'>
         <Link href="/about/chef">
-        <div className='lg:flex justify-center mt-7  '>
-            <Image
-            src="/about-3.1.png"
-            alt='shop'
-            height={1320}
-            width={864}
-            className='w-full'/>
-        </div>
         
-        <div className='lg:flex lg:justify-evenly sm:mt-7 mb-7 '>
-            <Image
-            src="/about-3.2.png"
-            alt='shop'
-            height={1320}
-            width={864}
-            className=''/>
-            <Image
-            src="/about-3.2.png"
-            alt='shop'
-            height={1320}
-            width={864}
-            className=''/>
-        </div>
+      <ChefList/>
         </Link>
-        <div className='flex justify-center mt-7 mb-7 p-6'>
-            <Image
-            src="/about-4.png"
-            alt='shop'
-            height={1273}
-            width={770}
-            className=''/>
         </div>
         
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import { Search, ShoppingBag, User } from 'lucide-react'
-import Image from 'next/image'
+
 import Link from 'next/link'
+import ChefList from '@/app/components/ChefList'
 
 
 export default function page() {
@@ -83,26 +84,10 @@ export default function page() {
     </header>
     {/* navbar end */}
 
-    <div className=' space-x-3 justify-center mt-7 mb-7 p-6 '>
-            <Image
-            src="/chef-1.png"
-            alt='shop'
-            height={400}
-            width={400}
-            className='lg:w-full'/>
-            <Image
-            src="/chef-2.png"
-            alt='shop'
-            height={400}
-            width={400}
-            className='lg:w-full'/>
-              <Image
-            src="/chef-3.png"
-            alt='shop'
-            height={400}
-            width={400}
-            className='w-full'/>
-        </div>
+<div>
+<ChefList/>
+</div>
+    
     </div>
   )
 }
