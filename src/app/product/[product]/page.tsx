@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import { Search, ShoppingBag, User } from 'lucide-react';
@@ -100,8 +101,8 @@ export default async function ProductPage({ params }: Props) {
         </header>
         {/* navbar end */}
         
-    <div className="container mx-auto px-4 py-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="container mx-auto px-4 py-5">
+      <div className="max-w-2xl mx-auto">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="relative h-[400px] w-full">
             <Image
@@ -129,7 +130,7 @@ export default async function ProductPage({ params }: Props) {
                 )}
               </div>
             </div>
-
+                
             <p className="text-gray-700">{product.description}</p>
 
             <div className="flex flex-wrap gap-2">
@@ -141,6 +142,12 @@ export default async function ProductPage({ params }: Props) {
               }`}>
                 {product.available ? 'Available' : 'Not Available'}
               </span>
+            </div>
+            <div className="p-6 space-y-4">
+            <div className="flex justify-end space-x-3">
+              <Button>Add To Cart</Button>
+              <Button >Checkout</Button>
+            </div>
             </div>
           </div>
         </div>

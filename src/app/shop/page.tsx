@@ -82,9 +82,7 @@ export default function Shop() {
     </header>
     {/* navbar end */}
 
-<h1 className='text-center p-6 font-bold text-4xl'>
-    Click Below To View Shop Details!
-</h1>
+
 
 <div className=' mt-7 mb-7 '>
     <FoodList/>
