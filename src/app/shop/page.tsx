@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import FoodList from '../components/FoodList'
+import { SearchBar } from '../components/Search-Bar'
 
 export default function Shop() {
   return (
@@ -85,6 +86,7 @@ export default function Shop() {
 
 
 <div className=' mt-7 mb-7 '>
+    <SearchBar/>
     <FoodList/>
    
   
